@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+
+body{
+	background-color: #252525;
+	font-size: 14px;
+}
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#ec3642;
+	--color-rojo:#ec3642;
+	--fondo-header:#212121;
+	--fondo-footer:#212121;
+	--color-footer:#ccc;
+}
+header{
+	background-color: var(--fondo-header);
+}
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+}
+footer p{
+	margin-bottom: 5px;
+}
+footer span{
+	color: var(--color-rojo);
+}
+
+
+
+.texto-fichas h3,
+.texto-fichas h2,
+.texto-fichas p {
+  color: white;
+}
+
+.ficha {
+  background-color: #000000;
+  
+}
+
+.texto-fichas h2{
+font-size: 25px;
+font-weight: 400;
+text-transform: uppercase; 
+}
+
+.texto-fichas h3{
+font-size: 16px;
+margin: 0;
+margin-top: 18px;
+font-weight: 300;
+text-transform: uppercase; 
+
+}
+
+
+.texto-fichas p{
+font-size: 12px;
+font-weight: 300;
+text-transform: uppercase; 
+}
+
+#intro a{
+background-color: var(--color-rojo);
+color: #FFFFFF;
+font-weight: 300;
+padding: 10px 20px;
+cursor: pointer;
+text-transform: uppercase;
+}
+
+.info-product {
+  background-color: #161616;
+  color: #fff;
+  padding: 10px
+}
+
+.info-product h2 {
+ font-size: 18px;
+margin-bottom: 5px;
+font-weight: 300;
+}
+
+.info-product p {
+  font-size: 16px;
+  margin: 0;
+color:  var(--color-rojo);
+}
+
+.product img{
+	width: 150%;
+}
+
+.cta {
+  background-image: url("../img/bg-parallax.png");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 100px 80px;
+}
+
+.cta h1 {
+  font-size: 50px;
+  margin-bottom: 10px; 
+text-transform: uppercase; 
+font-weight: 600;
+}
+
+.cta p {
+font-size: 24px;
+margin-bottom: 20px; 
+font-weight: 200;
+}
+
+.cta .btn {
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+text-transform: uppercase;
+font-weight: 300;
+}
+
+.cta .btn:hover {
+  color: var(--color-rojo);
+  background-color: #fff;
+  border: 2px solid #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+text-transform: uppercase;
+font-weight: 300;
+}
